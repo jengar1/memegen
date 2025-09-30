@@ -1,1 +1,23 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Meme Genarator</title>
+    <link rel= "stylesheet"  href="meme.css">
+</head>
+<body>
+    <h1> Iconic meme generator</h1>
+    <!--form-->
+    <form id="memeForm">
+        <label for="topText"> Top Text: </label><br>
+        <input type="text" id="topText" placeholder = "Enter Top Text" required ><br><br>
+        <label for = "bottomText" > Bottom Text:</label><br>
+        <input type = "text" id="bottomText" placeholder="Paste Image Link" required><br>
+        <label for="imageUrl">Image URL</label><br>
+        <input type="url" id="imageUrl" placeholder="paste image link" required ><br>
+        <buttom type = "submi">Generate iconic meme </buttom>
+    </form>
+    <div id = "memeContainer"></div>
+    <script src="meme.js"></script>
+</body>
+</html>
